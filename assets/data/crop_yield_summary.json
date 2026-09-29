@@ -1,0 +1,225 @@
+{
+  "datasetName": "Kaggle Agriculture Crop Yield Dataset",
+  "datasetSource": "samuelotiattakorah/agriculture-crop-yield",
+  "totalRecords": 1000000,
+  "downloadPath": "samuelotiattakorah/agriculture-crop-yield",
+  "modelFormula": {
+    "baseIntercept": -0.0127,
+    "rainfallFactor": 0.005004,
+    "temperatureFactor": 0.0211,
+    "fertilizerBonus": 1.506,
+    "irrigationBonus": 1.195
+  },
+  "crops": {
+    "Cotton": {
+      "recordCount": 166585,
+      "avgYieldTonsPerHa": 4.65,
+      "avgYieldQuintalsPerAcre": 18.8,
+      "minYield": 0.85,
+      "maxYield": 9.79,
+      "avgRainfallMm": 648.2,
+      "avgTempC": 28.5,
+      "avgDaysToHarvest": 105,
+      "fertilizerImpact": {
+        "withFertilizer": 5.4,
+        "withoutFertilizer": 3.9,
+        "gainTonsPerHa": 1.5,
+        "percentageGain": 38.5
+      },
+      "irrigationImpact": {
+        "withIrrigation": 5.25,
+        "withoutIrrigation": 4.05,
+        "gainTonsPerHa": 1.2,
+        "percentageGain": 29.6
+      },
+      "soilAverages": {
+        "Silt": 4.66,
+        "Chalky": 4.66,
+        "Sandy": 4.65,
+        "Peaty": 4.65,
+        "Clay": 4.65,
+        "Loam": 4.63
+      },
+      "weatherAverages": {
+        "Rainy": 4.66,
+        "Sunny": 4.65,
+        "Cloudy": 4.64
+      }
+    },
+    "Rice": {
+      "recordCount": 166792,
+      "avgYieldTonsPerHa": 4.65,
+      "avgYieldQuintalsPerAcre": 18.8,
+      "minYield": 0.92,
+      "maxYield": 9.96,
+      "avgRainfallMm": 651.4,
+      "avgTempC": 28.6,
+      "avgDaysToHarvest": 105,
+      "fertilizerImpact": {
+        "withFertilizer": 5.4,
+        "withoutFertilizer": 3.9,
+        "gainTonsPerHa": 1.5,
+        "percentageGain": 38.5
+      },
+      "irrigationImpact": {
+        "withIrrigation": 5.26,
+        "withoutIrrigation": 4.05,
+        "gainTonsPerHa": 1.21,
+        "percentageGain": 29.9
+      },
+      "soilAverages": {
+        "Peaty": 4.66,
+        "Clay": 4.65,
+        "Sandy": 4.65,
+        "Silt": 4.65,
+        "Loam": 4.65,
+        "Chalky": 4.64
+      },
+      "weatherAverages": {
+        "Rainy": 4.66,
+        "Sunny": 4.65,
+        "Cloudy": 4.64
+      }
+    },
+    "Maize": {
+      "recordCount": 166824,
+      "avgYieldTonsPerHa": 4.64,
+      "avgYieldQuintalsPerAcre": 18.8,
+      "minYield": 0.88,
+      "maxYield": 9.95,
+      "avgRainfallMm": 649.8,
+      "avgTempC": 28.5,
+      "avgDaysToHarvest": 105,
+      "fertilizerImpact": {
+        "withFertilizer": 5.39,
+        "withoutFertilizer": 3.9,
+        "gainTonsPerHa": 1.49,
+        "percentageGain": 38.2
+      },
+      "irrigationImpact": {
+        "withIrrigation": 5.25,
+        "withoutIrrigation": 4.04,
+        "gainTonsPerHa": 1.21,
+        "percentageGain": 29.9
+      },
+      "soilAverages": {
+        "Loam": 4.67,
+        "Chalky": 4.65,
+        "Peaty": 4.64,
+        "Clay": 4.63,
+        "Silt": 4.63,
+        "Sandy": 4.63
+      },
+      "weatherAverages": {
+        "Rainy": 4.64,
+        "Sunny": 4.64,
+        "Cloudy": 4.64
+      }
+    },
+    "Soybean": {
+      "recordCount": 166349,
+      "avgYieldTonsPerHa": 4.65,
+      "avgYieldQuintalsPerAcre": 18.8,
+      "minYield": 0.95,
+      "maxYield": 9.68,
+      "avgRainfallMm": 650.1,
+      "avgTempC": 28.5,
+      "avgDaysToHarvest": 104,
+      "fertilizerImpact": {
+        "withFertilizer": 5.4,
+        "withoutFertilizer": 3.9,
+        "gainTonsPerHa": 1.5,
+        "percentageGain": 38.5
+      },
+      "irrigationImpact": {
+        "withIrrigation": 5.26,
+        "withoutIrrigation": 4.05,
+        "gainTonsPerHa": 1.21,
+        "percentageGain": 29.9
+      },
+      "soilAverages": {
+        "Sandy": 4.66,
+        "Silt": 4.66,
+        "Chalky": 4.66,
+        "Peaty": 4.66,
+        "Clay": 4.65,
+        "Loam": 4.64
+      },
+      "weatherAverages": {
+        "Rainy": 4.66,
+        "Sunny": 4.66,
+        "Cloudy": 4.65
+      }
+    },
+    "Wheat": {
+      "recordCount": 166673,
+      "avgYieldTonsPerHa": 4.65,
+      "avgYieldQuintalsPerAcre": 18.8,
+      "minYield": 0.82,
+      "maxYield": 9.8,
+      "avgRainfallMm": 649.5,
+      "avgTempC": 28.5,
+      "avgDaysToHarvest": 105,
+      "fertilizerImpact": {
+        "withFertilizer": 5.4,
+        "withoutFertilizer": 3.9,
+        "gainTonsPerHa": 1.5,
+        "percentageGain": 38.5
+      },
+      "irrigationImpact": {
+        "withIrrigation": 5.25,
+        "withoutIrrigation": 4.06,
+        "gainTonsPerHa": 1.19,
+        "percentageGain": 29.3
+      },
+      "soilAverages": {
+        "Loam": 4.67,
+        "Silt": 4.66,
+        "Peaty": 4.65,
+        "Chalky": 4.65,
+        "Clay": 4.64,
+        "Sandy": 4.64
+      },
+      "weatherAverages": {
+        "Rainy": 4.66,
+        "Sunny": 4.65,
+        "Cloudy": 4.65
+      }
+    },
+    "Barley": {
+      "recordCount": 166777,
+      "avgYieldTonsPerHa": 4.65,
+      "avgYieldQuintalsPerAcre": 18.8,
+      "minYield": 0.78,
+      "maxYield": 9.95,
+      "avgRainfallMm": 650.3,
+      "avgTempC": 28.5,
+      "avgDaysToHarvest": 104,
+      "fertilizerImpact": {
+        "withFertilizer": 5.4,
+        "withoutFertilizer": 3.89,
+        "gainTonsPerHa": 1.51,
+        "percentageGain": 38.8
+      },
+      "irrigationImpact": {
+        "withIrrigation": 5.24,
+        "withoutIrrigation": 4.05,
+        "gainTonsPerHa": 1.19,
+        "percentageGain": 29.4
+      },
+      "soilAverages": {
+        "Sandy": 4.66,
+        "Clay": 4.65,
+        "Peaty": 4.65,
+        "Chalky": 4.65,
+        "Loam": 4.64,
+        "Silt": 4.63
+      },
+      "weatherAverages": {
+        "Sunny": 4.66,
+        "Cloudy": 4.65,
+        "Rainy": 4.63
+      }
+    }
+  }
+}
